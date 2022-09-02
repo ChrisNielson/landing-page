@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+}
+
+header {
+    background: rgb(31, 41, 55);
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0,.1);
+    color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
